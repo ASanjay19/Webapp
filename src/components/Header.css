@@ -1,0 +1,36 @@
+.articalView{
+    text-align: center;
+    background-color:#02024b;
+    width: '100%';
+    /* top:5px; */
+  }
+  
+  .articalView h3{
+     text-align: center;
+  }
+
+  .menuMain{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .rightMenu{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .rightMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    margin-inline: 10px;
+  }
+  
+  .leftMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  

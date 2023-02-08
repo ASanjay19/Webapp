@@ -1,0 +1,79 @@
+.App {
+    text-align:left;
+  }
+  
+.App-header{
+    background-color:#02024b;
+    /* min-height: 100vh; */
+    /* flex-direction: column; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+.footer{
+    color: white;
+    background-color:#02024b;
+    /* position: relative; */
+    width: 100%;
+    /* padding: 70px 0; */
+  }  
+.center-image{
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+
+  }
+.center-image h3{
+  color:blue;
+  font-size: 22px;
+  font-style:italic;
+  }
+
+  .center-image img{
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    height: 350px;
+  }
+.divtwo ul li{
+  color:blue;
+}
+.divtwo ul{
+  margin-left: 35px;
+}
+.divtwo ul li::before{
+  content: "\2022";
+  color:orange;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  font-size: 22px;
+}
+.divtwo ul{
+  list-style:none;
+}
+.centerdiv{
+  background-color:#02024b;
+  color: white;
+  padding-inline: 15px;
+  justify-content: center;
+  align-items: centers;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.centerdiv p{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divtwo ol li{
+  color:blue;
+}
+.divtwo ol{
+  margin-left: 35px;
+}

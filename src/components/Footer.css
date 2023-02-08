@@ -1,0 +1,42 @@
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .col{
+      justify-content: center;
+  }
+  .col p{
+    color:lightsteelblue;
+  }
+  
+  .col li{
+    list-style: none;
+   
+  }
+
+  .col li a{
+    color:lightsteelblue;
+    text-decoration: none;
+  }
+  
+  .powerBy{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .line{
+    height: 1px;
+    width: '100%';
+    background-color: white;
+    margin-top: 20px;
+  }
+  .social h3{
+    margin-left: 10px;
+  }
+  .link{
+    color: white;
+  }
+  .link :hover{
+    color:yellow;
+  }
